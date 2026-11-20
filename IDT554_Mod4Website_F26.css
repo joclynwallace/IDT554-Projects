@@ -1,0 +1,105 @@
+body {
+	background-color: #FFF7EB;
+}
+
+h1 {
+	height: 80px;
+	background-color: #864793;
+	text-align: center;
+	color:#FFF7EB;
+	font-family: Trebuchet MS;
+	font-size: 60px;
+	font-weight: bold;
+}
+
+ul {
+  display: flex;
+  gap: 1rem;
+}
+
+li {
+  background-color: #864793;
+  padding: .5rem;
+}
+
+@layer presentation {
+  body {
+    background: #FFF7EB;
+    display: grid;
+    height: 100vh;
+    place-items: center;
+  }
+  
+  ul {
+    border: 1px #864793;
+    border-radius: 8px;
+    padding-inline: 0;
+    padding: 1rem;
+  }
+  
+  li {
+    border-radius: 6px;
+    list-style: none;
+    
+    a {
+      color: #FFF7EB;
+    }
+  }
+}
+
+p {
+	font-family: Garamond;
+	font-size:18px;
+}
+
+h2 {
+	font-family: Trebuchet MS;
+	font-size: 30px;
+	color: #864793;
+}
+
+li::marker {
+	color:#864793;
+}
+
+
+
+table {
+	font-family: Garamond;
+	margin: 25px 50px 75px 100px;
+}
+
+td, th {
+	border: 3px solid #864793;
+	padding: 10px;
+}
+
+tr:nth-child(even){background-color:#864793;}
+
+tr:hover {background-color:#FFF7EB;}
+
+th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: center;
+	background-color: #864793;
+	color: #FFF7EB;
+}
+a:hover {
+	background-color: #F9D82DFF;
+}
+
+footer {
+	height: 80px;
+	background-image: url("https://people.sunypoly.edu/~wallacjm/Mod4CSS/toys.png");
+	font-family: Trebuchet MS;
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+}
+footer-link {
+	text-decoration: none;
+	color: black;
+}
+
+
